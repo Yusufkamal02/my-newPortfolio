@@ -78,7 +78,7 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button
-              onClick={() => window.open('public/Cv-M.YusufKamal.pdf', '_blank')}
+              onClick={() => window.open('/Cv-M.YusufKamal.pdf', '_blank')}
               className="bg-gradient-primary hover:shadow-primary transition-all duration-300"
             >
               Check My CV
