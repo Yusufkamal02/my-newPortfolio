@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: 'Smart Home IoT System',
       description: 'Sistem rumah pintar komprehensif dengan kontrol suhu, cahaya, dan keamanan menggunakan ESP32 dan aplikasi mobile.',
-      image: 'public/smart-home.jpg',
+      image: '/smart-home.jpg',
       technologies: ['ESP32', 'Flutter', 'MQTT', 'Firebase'],
       icon: Wifi,
       github: '#',
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: 'Humanoid Robot',
       description: 'Robot yang dapat melakukan tugas-tugas yang berulang sesuai dengan instruksi yang diberikan.',
-      image: 'public/humanoid.jpg',
+      image: '/humanoid.jpg',
       technologies: ['ROS', 'Python', 'OpenCV', 'Lidar'],
       icon: Settings,
       github: '#',
@@ -27,7 +27,7 @@ const Projects = () => {
     {
       title: 'Coaching Robotic Competition in China',
       description: 'Mebimbing dan melatih Siswa untuk mempersiapkan diri mengikuti kompetisi Youth Science and Technology Elite Gathering Zmrobo Maze Solving di China.',
-      image: 'public/idnjuara.jpg',
+      image: '/idnjuara.jpg',
       technologies: ['Python', 'Node.js', 'OpenCV', 'Zmrobo'],
       icon: Cpu,
       github: '#',
@@ -36,7 +36,7 @@ const Projects = () => {
     {
       title: 'Training and Development IoT Robotics and AI',
       description: 'Pelatihan materi IoT Robotics dan AI untuk Guru, Mahasiswa dan Umum dengan metode pembelajaran interaktif berbasis proyek nyata.',
-      image: 'public/training.jpg',
+      image: '/training.jpg',
       technologies: ['Esp8266', 'OpenCV', 'Blynk', 'Python', 'Machine Learning', 'Tensorflow', 'Ultralytics'],
       icon: Cpu,
       github: '#',
