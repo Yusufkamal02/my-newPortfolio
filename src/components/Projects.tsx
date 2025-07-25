@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: 'Smart Home IoT System',
       description: 'Sistem rumah pintar komprehensif dengan kontrol suhu, cahaya, dan keamanan menggunakan ESP32 dan aplikasi mobile.',
-      image: '/smart-home.jpg',
+      image: '/Smart-home.jpg',
       technologies: ['ESP32', 'Flutter', 'MQTT', 'Firebase'],
       icon: Wifi,
       github: '#',
