@@ -31,7 +31,7 @@ const Projects = () => {
       technologies: ['Python', 'Node.js', 'OpenCV', 'Zmrobo'],
       icon: Cpu,
       github: '#',
-      demo: '#'
+      demo: 'https://www.liputan6.com/news/read/5851295/membanggakan-5-siswa-smp-asal-bogor-juara-pertama-kompetisi-ai-robotik-internasional-di-beijing'
     },
     {
       title: 'Training and Development IoT Robotics and AI',
