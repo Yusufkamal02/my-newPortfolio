@@ -31,7 +31,7 @@ const Projects = () => {
       technologies: ['Python', 'Node.js', 'OpenCV', 'Zmrobo'],
       icon: Cpu,
       github: '#',
-      demo: 'https://www.liputan6.com/news/read/5851295/membanggakan-5-siswa-smp-asal-bogor-juara-pertama-kompetisi-ai-robotik-internasional-di-beijing'
+      demo: 'https://www.liputan6.com/news/read/5851295/membanggakan-5-siswa-smp-asal-bogor-juara-pertama-kompetisi-ai-robotik-internasional-di-beijing',
     },
     {
       title: 'Training and Development IoT Robotics and AI',
@@ -109,21 +109,24 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-3 pt-4">
-                    <Button 
-                      size="sm" 
-                      className="flex-1 bg-primary hover:bg-primary/90 shadow-primary/50 hover:shadow-primary transition-all duration-300"
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 inline-flex items-center justify-center text-sm font-medium bg-primary text-white hover:bg-primary/90 transition-all duration-300 px-4 py-2 rounded-md shadow-md"
                     >
                       <Github className="w-4 h-4 mr-2" />
                       Code
-                    </Button>
-                    <Button 
-                      size="sm" 
-                      variant="outline"
-                      className="flex-1 border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                    </a>
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 inline-flex items-center justify-center text-sm font-medium border border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300 px-4 py-2 rounded-md"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Documentation
-                    </Button>
+                    </a>
                   </div>
                 </CardContent>
               </Card>
