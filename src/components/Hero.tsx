@@ -20,11 +20,12 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h1 className="text-6xl md:text-8xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-6 animate-glow">
+            
+            <h1 className="text-6xl md:text-8xl font-bold bg-gradient-accent bg-clip-text mb-6 animate-glow">
               Hallo! I'm Yusuf Kamal
             </h1>
             <h2 className="text-4xl md:text-6xl font-bold text-foreground mb-8">
-              IoT & Robotics Engineer
+              IoT & Robotics Mentor
             </h2>
           </motion.div>
 
@@ -48,7 +49,7 @@ const Hero = () => {
               Lihat Portfolio
             </Button>
             <Button 
-              onClick={() => window.open('https://wa.me/6285211300942', '_blank')}
+              onClick={() => window.open('https://wa.me/6285187946834', '_blank')}
               variant="outline" 
               size="lg" 
               className="px-8 py-6 text-lg border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
